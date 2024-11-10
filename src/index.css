@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply leading-loose;
+  }
+}
+
+@layer base {
+  html {
+    scroll-padding-top: 100px; /* Ajusta este valor según el alto del navbar */
+  }
+}
